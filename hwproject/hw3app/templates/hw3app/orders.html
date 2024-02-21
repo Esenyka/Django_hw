@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>orders</title>
+</head>
+<body>
+
+    <h2>Заказы {{ client.name }} за последние 7 дней</h2>
+    <ul>
+        {% for item in order %}
+            {% if item.order_date.day > day %}
+                <li>{{ item }}</li>
+            {% else %}
+                <li> {{ item }} </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+
+    <h2>Заказы {{ client.name }} за последние 30 дней </h2>
+    <ul>
+        {% for item in order %}
+            {% if item.order_date.month > month %}
+                <li>{{ item }}</li>
+            {% else %}
+                <li> {{ item }} </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+
+    <h2>Заказы {{ client.name }} за последние 365 дней</h2>
+    <ul>
+        {% for item in order %}
+            {% if item.order_date.year > year %}
+                <li>{{ item }}</li>
+            {% else %}
+                <li> {{ item }} </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+
+
+</body>
+</html>
