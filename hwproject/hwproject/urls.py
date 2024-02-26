@@ -21,5 +21,6 @@ from hw3app.views import base
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', base),
-    path('hw3/', include('hw3app.urls'))
+    path('hw3/', include('hw3app.urls')),
+    path('les4/', include('les4app.urls')),
 ]

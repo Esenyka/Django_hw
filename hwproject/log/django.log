@@ -1,0 +1,423 @@
+INFO 2024-02-23 15:01:18,669 autoreload 5328 15836 Watching for file changes with StatReloader
+INFO 2024-02-23 15:01:24,211 views 5328 12648 Get name='bbb', email='bb@mail.ru', age=3
+INFO 2024-02-23 15:01:24,411 basehttp 5328 12648 "POST /les4/user/add/ HTTP/1.1" 200 795
+INFO 2024-02-23 15:01:25,879 views 5328 6156 Get name='bbb', email='bb@mail.ru', age=3
+INFO 2024-02-23 15:01:25,879 basehttp 5328 6156 "POST /les4/user/add/ HTTP/1.1" 200 795
+INFO 2024-02-23 15:27:15,851 autoreload 15612 5072 Watching for file changes with StatReloader
+INFO 2024-02-23 15:27:48,692 autoreload 14060 600 Watching for file changes with StatReloader
+INFO 2024-02-23 15:27:51,532 basehttp 14060 12516 "GET / HTTP/1.1" 200 191
+INFO 2024-02-23 15:28:07,534 basehttp 14060 12508 "GET /les4/forms HTTP/1.1" 301 0
+INFO 2024-02-23 15:28:07,752 basehttp 14060 14920 "GET /les4/forms/ HTTP/1.1" 200 1407
+INFO 2024-02-26 13:32:43,204 autoreload 13460 8144 Watching for file changes with StatReloader
+INFO 2024-02-26 13:32:46,198 basehttp 13460 504 "GET / HTTP/1.1" 200 191
+WARNING 2024-02-26 13:32:48,894 log 13460 3600 Not Found: /favicon.ico
+WARNING 2024-02-26 13:32:48,894 basehttp 13460 3600 "GET /favicon.ico HTTP/1.1" 404 2422
+INFO 2024-02-26 13:32:55,494 basehttp 13460 9860 "GET /les4/forms HTTP/1.1" 301 0
+INFO 2024-02-26 13:32:55,716 basehttp 13460 16596 "GET /les4/forms/ HTTP/1.1" 200 1407
+INFO 2024-02-26 13:33:23,606 views 13460 14176 Get form.changed_data=['name', 'email', 'age', 'height', 'is_active', 'gender']
+INFO 2024-02-26 13:33:23,606 basehttp 13460 14176 "POST /les4/forms/ HTTP/1.1" 200 1489
+INFO 2024-02-26 13:43:08,198 autoreload 13460 8144 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\les4app\forms.py changed, reloading.
+INFO 2024-02-26 13:43:11,154 autoreload 4964 4140 Watching for file changes with StatReloader
+INFO 2024-02-26 13:43:14,017 autoreload 4964 4140 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\les4app\forms.py changed, reloading.
+INFO 2024-02-26 13:55:21,290 autoreload 3708 12176 Watching for file changes with StatReloader
+INFO 2024-02-26 13:55:24,442 basehttp 3708 12608 "GET / HTTP/1.1" 200 191
+INFO 2024-02-26 13:55:31,293 basehttp 3708 9080 "GET /les4/forms HTTP/1.1" 301 0
+INFO 2024-02-26 13:55:31,373 basehttp 3708 10644 "GET /les4/forms/ HTTP/1.1" 200 1407
+INFO 2024-02-26 13:55:41,711 basehttp 3708 10092 "GET /les4/forms/ HTTP/1.1" 200 1407
+INFO 2024-02-26 13:55:45,187 basehttp 3708 11632 "GET /les4/forms/ HTTP/1.1" 200 1407
+INFO 2024-02-26 13:55:45,750 basehttp 3708 11632 "GET /les4/forms/ HTTP/1.1" 200 1407
+INFO 2024-02-26 13:55:53,812 basehttp 3708 13256 "GET /les4/forms/ HTTP/1.1" 200 1407
+INFO 2024-02-26 13:56:14,646 autoreload 3708 12176 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\les4app\views.py changed, reloading.
+INFO 2024-02-26 13:56:16,345 autoreload 13928 17384 Watching for file changes with StatReloader
+INFO 2024-02-26 13:56:17,370 basehttp 13928 10596 "GET /les4/forms/ HTTP/1.1" 200 1772
+INFO 2024-02-26 13:57:43,278 basehttp 13928 11384 "POST /les4/forms/ HTTP/1.1" 200 1979
+INFO 2024-02-26 13:57:57,078 basehttp 13928 12676 "POST /les4/forms/ HTTP/1.1" 200 1979
+INFO 2024-02-26 13:58:13,449 basehttp 13928 11772 "POST /les4/forms/ HTTP/1.1" 200 1979
+INFO 2024-02-26 13:58:13,749 basehttp 13928 11772 "POST /les4/forms/ HTTP/1.1" 200 1979
+INFO 2024-02-26 13:58:14,580 basehttp 13928 14000 "POST /les4/forms/ HTTP/1.1" 200 1979
+INFO 2024-02-26 13:58:24,028 basehttp 13928 13100 "POST /les4/forms/ HTTP/1.1" 200 1979
+INFO 2024-02-26 13:59:09,158 autoreload 13928 17384 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\les4app\forms.py changed, reloading.
+INFO 2024-02-26 13:59:11,417 autoreload 6892 9532 Watching for file changes with StatReloader
+INFO 2024-02-26 13:59:20,824 basehttp 6892 2520 "POST /les4/forms/ HTTP/1.1" 200 2245
+INFO 2024-02-26 17:57:09,667 autoreload 10252 6356 Watching for file changes with StatReloader
+INFO 2024-02-26 17:57:10,961 basehttp 10252 468 "GET / HTTP/1.1" 200 191
+WARNING 2024-02-26 17:57:11,343 log 10252 468 Not Found: /favicon.ico
+WARNING 2024-02-26 17:57:11,343 basehttp 10252 468 "GET /favicon.ico HTTP/1.1" 404 2422
+INFO 2024-02-26 17:57:22,965 basehttp 10252 9836 "GET /les4/forms/ HTTP/1.1" 200 2028
+INFO 2024-02-26 17:57:48,134 basehttp 10252 5188 "GET / HTTP/1.1" 200 191
+INFO 2024-02-26 17:57:52,563 basehttp 10252 5156 "GET /les4/forms/ HTTP/1.1" 200 2028
+INFO 2024-02-26 17:58:25,019 autoreload 10252 6356 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\les4app\forms.py changed, reloading.
+INFO 2024-02-26 17:58:34,106 autoreload 5832 6284 Watching for file changes with StatReloader
+INFO 2024-02-26 17:58:36,796 basehttp 5832 3884 "GET /les4/forms/ HTTP/1.1" 200 2028
+INFO 2024-02-26 19:58:18,093 autoreload 15480 1900 Watching for file changes with StatReloader
+INFO 2024-02-26 20:09:56,138 autoreload 15480 1900 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\urls.py changed, reloading.
+INFO 2024-02-26 20:09:59,946 autoreload 14644 12252 Watching for file changes with StatReloader
+INFO 2024-02-26 20:14:53,450 autoreload 14644 12252 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\urls.py changed, reloading.
+INFO 2024-02-26 20:14:55,465 autoreload 15128 16796 Watching for file changes with StatReloader
+INFO 2024-02-26 20:15:16,829 basehttp 15128 6372 "GET / HTTP/1.1" 200 191
+INFO 2024-02-26 20:15:17,178 basehttp 15128 6372 "GET / HTTP/1.1" 200 191
+INFO 2024-02-26 20:15:31,759 basehttp 15128 6984 "GET /hw3/image HTTP/1.1" 301 0
+INFO 2024-02-26 20:15:32,226 basehttp 15128 13780 "GET /hw3/image/ HTTP/1.1" 200 569
+INFO 2024-02-26 20:15:47,162 basehttp 15128 3612 "GET /hw3/image/ HTTP/1.1" 200 568
+INFO 2024-02-26 20:16:07,784 autoreload 16416 10660 Watching for file changes with StatReloader
+INFO 2024-02-26 20:16:14,915 basehttp 16416 14488 "POST /hw3/image/ HTTP/1.1" 200 650
+INFO 2024-02-26 20:16:25,755 basehttp 16416 12592 "POST /hw3/image/ HTTP/1.1" 200 650
+INFO 2024-02-26 20:17:33,040 basehttp 16416 13764 "POST /hw3/image/ HTTP/1.1" 200 650
+INFO 2024-02-26 20:18:58,357 basehttp 16416 11424 "POST /hw3/image/ HTTP/1.1" 200 650
+INFO 2024-02-26 20:19:15,017 autoreload 16416 10660 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\models.py changed, reloading.
+INFO 2024-02-26 20:19:16,755 autoreload 16724 1460 Watching for file changes with StatReloader
+INFO 2024-02-26 20:20:44,435 autoreload 16492 15984 Watching for file changes with StatReloader
+INFO 2024-02-26 20:20:47,458 basehttp 16492 8188 "GET / HTTP/1.1" 200 191
+INFO 2024-02-26 20:20:57,302 basehttp 16492 8724 "POST /hw3/image/ HTTP/1.1" 200 650
+INFO 2024-02-26 20:21:04,747 basehttp 16492 11748 "GET /hw3/orders/2 HTTP/1.1" 301 0
+INFO 2024-02-26 20:21:04,846 basehttp 16492 3448 "GET /hw3/orders/2/ HTTP/1.1" 200 2748
+INFO 2024-02-26 20:21:55,663 basehttp 16492 3264 "POST /hw3/image/ HTTP/1.1" 200 650
+INFO 2024-02-26 20:22:57,686 basehttp 16492 10388 "POST /hw3/image/ HTTP/1.1" 200 568
+INFO 2024-02-26 20:22:57,717 basehttp 16492 6160 - Broken pipe from ('127.0.0.1', 53697)
+INFO 2024-02-26 20:23:18,107 basehttp 16492 7376 "GET /hw3/image/ HTTP/1.1" 200 568
+INFO 2024-02-26 20:23:22,676 basehttp 16492 7376 "GET /hw3/orders/2/ HTTP/1.1" 200 2748
+INFO 2024-02-26 20:24:47,786 autoreload 16492 15984 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\models.py changed, reloading.
+INFO 2024-02-26 20:24:52,237 autoreload 2168 3612 Watching for file changes with StatReloader
+INFO 2024-02-26 20:25:19,323 autoreload 2168 3612 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\models.py changed, reloading.
+INFO 2024-02-26 20:25:20,946 autoreload 13716 2936 Watching for file changes with StatReloader
+INFO 2024-02-26 20:25:21,582 basehttp 13716 6472 "GET /hw3/orders/2/ HTTP/1.1" 200 2748
+INFO 2024-02-26 20:30:01,108 autoreload 4068 13800 Watching for file changes with StatReloader
+ERROR 2024-02-26 20:30:03,655 log 4068 8332 Internal Server Error: /hw3/orders/2/
+Traceback (most recent call last):
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+KeyError: 'endif'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py", line 28, in client_orders_seven
+    return render(request, 'hw3app/orders.html', {'client': client,
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\template\base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 12: 'endif'. Did you forget to register or load this tag?
+ERROR 2024-02-26 20:30:03,671 basehttp 4068 8332 "GET /hw3/orders/2/ HTTP/1.1" 500 153990
+INFO 2024-02-26 20:30:20,833 basehttp 4068 12104 "GET /hw3/orders/2/ HTTP/1.1" 200 2799
+INFO 2024-02-26 20:30:22,946 basehttp 4068 1640 "GET /hw3/orders/2/ HTTP/1.1" 200 2799
+INFO 2024-02-26 20:33:40,087 autoreload 4068 13800 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py changed, reloading.
+INFO 2024-02-26 20:33:41,868 autoreload 2688 2284 Watching for file changes with StatReloader
+INFO 2024-02-26 20:33:52,391 autoreload 2688 2284 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py changed, reloading.
+INFO 2024-02-26 20:33:53,738 autoreload 7040 7716 Watching for file changes with StatReloader
+INFO 2024-02-26 20:34:18,968 autoreload 7040 7716 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py changed, reloading.
+INFO 2024-02-26 20:34:20,217 autoreload 8136 1928 Watching for file changes with StatReloader
+WARNING 2024-02-26 20:34:57,432 log 8136 15344 Not Found: /image
+WARNING 2024-02-26 20:34:57,432 basehttp 8136 15344 "GET /image HTTP/1.1" 404 2404
+ERROR 2024-02-26 20:35:05,465 log 8136 5164 Internal Server Error: /hw3/image/
+Traceback (most recent call last):
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py", line 43, in upload_image
+    return render(request, 'hw3app/upload_image.html', {'form': form, 'img_obj': img_obj})
+UnboundLocalError: local variable 'img_obj' referenced before assignment
+ERROR 2024-02-26 20:35:05,465 basehttp 8136 5164 "GET /hw3/image/ HTTP/1.1" 500 67141
+INFO 2024-02-26 20:36:14,568 autoreload 8136 1928 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py changed, reloading.
+INFO 2024-02-26 20:36:16,388 autoreload 7980 10212 Watching for file changes with StatReloader
+ERROR 2024-02-26 20:36:16,849 log 7980 15672 Internal Server Error: /hw3/image/
+Traceback (most recent call last):
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py", line 43, in upload_image
+    img_obj = form.instance
+AttributeError: 'ImageForm' object has no attribute 'instance'
+ERROR 2024-02-26 20:36:16,849 basehttp 7980 15672 "GET /hw3/image/ HTTP/1.1" 500 67326
+ERROR 2024-02-26 20:36:17,533 log 7980 15672 Internal Server Error: /hw3/image/
+Traceback (most recent call last):
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py", line 43, in upload_image
+    img_obj = form.instance
+AttributeError: 'ImageForm' object has no attribute 'instance'
+ERROR 2024-02-26 20:36:17,533 basehttp 7980 15672 "GET /hw3/image/ HTTP/1.1" 500 67326
+ERROR 2024-02-26 20:37:04,703 log 7980 10536 Internal Server Error: /hw3/image/
+Traceback (most recent call last):
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py", line 43, in upload_image
+    return render(request, 'hw3app/upload_image.html', {'form': form, 'img_obj': image})
+AttributeError: 'ImageForm' object has no attribute 'instance'
+ERROR 2024-02-26 20:37:04,703 basehttp 7980 10536 "GET /hw3/image/ HTTP/1.1" 500 67285
+INFO 2024-02-26 20:37:04,812 autoreload 7980 10212 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py changed, reloading.
+INFO 2024-02-26 20:37:06,697 autoreload 10520 15612 Watching for file changes with StatReloader
+ERROR 2024-02-26 20:37:07,201 log 10520 16096 Internal Server Error: /hw3/image/
+Traceback (most recent call last):
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py", line 42, in upload_image
+    image = form.cleaned_data['image']
+AttributeError: 'ImageForm' object has no attribute 'cleaned_data'
+ERROR 2024-02-26 20:37:07,216 basehttp 10520 16096 "GET /hw3/image/ HTTP/1.1" 500 67400
+ERROR 2024-02-26 20:37:09,949 log 10520 3344 Internal Server Error: /hw3/image/
+Traceback (most recent call last):
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py", line 42, in upload_image
+    image = form.cleaned_data['image']
+AttributeError: 'ImageForm' object has no attribute 'cleaned_data'
+ERROR 2024-02-26 20:37:09,949 basehttp 10520 3344 "GET /hw3/image/ HTTP/1.1" 500 67400
+ERROR 2024-02-26 20:37:22,038 log 10520 16868 Internal Server Error: /hw3/image/
+Traceback (most recent call last):
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py", line 42, in upload_image
+    image = ''
+AttributeError: 'ImageForm' object has no attribute 'cleaned_data'
+ERROR 2024-02-26 20:37:22,038 basehttp 10520 16868 "GET /hw3/image/ HTTP/1.1" 500 67352
+INFO 2024-02-26 20:37:22,240 autoreload 10520 15612 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py changed, reloading.
+INFO 2024-02-26 20:37:23,548 autoreload 11836 16344 Watching for file changes with StatReloader
+INFO 2024-02-26 20:37:24,093 basehttp 11836 10696 "GET /hw3/image/ HTTP/1.1" 200 624
+INFO 2024-02-26 20:37:34,358 basehttp 11836 3120 "POST /hw3/image/ HTTP/1.1" 200 624
+INFO 2024-02-26 20:37:40,619 basehttp 11836 7004 "POST /hw3/image/ HTTP/1.1" 200 624
+INFO 2024-02-26 21:05:08,134 basehttp 11836 14196 "POST /hw3/image/ HTTP/1.1" 200 624
+INFO 2024-02-26 21:07:13,036 basehttp 11836 16096 "POST /hw3/image/ HTTP/1.1" 200 631
+WARNING 2024-02-26 21:07:13,256 log 11836 16096 Not Found: /hw3/image/img_obj
+WARNING 2024-02-26 21:07:13,257 basehttp 11836 16096 "GET /hw3/image/img_obj HTTP/1.1" 404 2824
+INFO 2024-02-26 21:07:31,367 basehttp 11836 9196 "POST /hw3/image/ HTTP/1.1" 200 640
+WARNING 2024-02-26 21:07:31,471 log 11836 9196 Not Found: /hw3/image/дерево.jpg
+WARNING 2024-02-26 21:07:31,471 basehttp 11836 9196 "GET /hw3/image/%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE.jpg HTTP/1.1" 404 2875
+INFO 2024-02-26 21:07:33,081 basehttp 11836 9196 "POST /hw3/image/ HTTP/1.1" 200 640
+WARNING 2024-02-26 21:07:33,132 log 11836 9196 Not Found: /hw3/image/дерево.jpg
+WARNING 2024-02-26 21:07:33,132 basehttp 11836 9196 "GET /hw3/image/%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE.jpg HTTP/1.1" 404 2875
+INFO 2024-02-26 21:07:59,137 basehttp 11836 3852 "POST /hw3/image/ HTTP/1.1" 200 646
+WARNING 2024-02-26 21:07:59,208 log 11836 3852 Not Found: /hw3/image/media/дерево.jpg
+WARNING 2024-02-26 21:07:59,208 basehttp 11836 3852 "GET /hw3/image/media/%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE.jpg HTTP/1.1" 404 2893
+INFO 2024-02-26 21:08:00,818 basehttp 11836 3852 "POST /hw3/image/ HTTP/1.1" 200 646
+WARNING 2024-02-26 21:08:00,888 log 11836 3852 Not Found: /hw3/image/media/дерево.jpg
+WARNING 2024-02-26 21:08:00,888 basehttp 11836 3852 "GET /hw3/image/media/%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE.jpg HTTP/1.1" 404 2893
+INFO 2024-02-26 21:09:29,701 basehttp 11836 4212 "POST /hw3/image/ HTTP/1.1" 200 651
+WARNING 2024-02-26 21:09:29,831 log 11836 4212 Not Found: /hw3/image/Без названия.jpg
+WARNING 2024-02-26 21:09:29,831 basehttp 11836 4212 "GET /hw3/image/%D0%91%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.jpg HTTP/1.1" 404 2930
+INFO 2024-02-26 21:10:47,623 basehttp 11836 14244 "POST /hw3/image/ HTTP/1.1" 200 651
+WARNING 2024-02-26 21:10:47,711 log 11836 14244 Not Found: /hw3/image/Без названия.jpg
+WARNING 2024-02-26 21:10:47,711 basehttp 11836 14244 "GET /hw3/image/%D0%91%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.jpg HTTP/1.1" 404 2930
+INFO 2024-02-26 21:10:49,228 basehttp 11836 14244 "POST /hw3/image/ HTTP/1.1" 200 651
+WARNING 2024-02-26 21:10:49,290 log 11836 14244 Not Found: /hw3/image/Без названия.jpg
+WARNING 2024-02-26 21:10:49,306 basehttp 11836 14244 "GET /hw3/image/%D0%91%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.jpg HTTP/1.1" 404 2930
+INFO 2024-02-26 21:11:09,164 basehttp 11836 10976 "POST /hw3/image/ HTTP/1.1" 200 651
+WARNING 2024-02-26 21:11:09,238 log 11836 10976 Not Found: /hw3/image/Без названия.jpg
+WARNING 2024-02-26 21:11:09,238 basehttp 11836 10976 "GET /hw3/image/%D0%91%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.jpg HTTP/1.1" 404 2930
+INFO 2024-02-26 21:12:28,568 autoreload 11836 16344 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\urls.py changed, reloading.
+INFO 2024-02-26 21:12:31,750 autoreload 4956 9792 Watching for file changes with StatReloader
+INFO 2024-02-26 21:12:33,923 basehttp 4956 13352 "GET /hw3/image/ HTTP/1.1" 200 651
+WARNING 2024-02-26 21:12:34,004 log 4956 13352 Not Found: /hw3/image/Без названия.jpg
+WARNING 2024-02-26 21:12:34,004 basehttp 4956 13352 "GET /hw3/image/%D0%91%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.jpg HTTP/1.1" 404 3092
+INFO 2024-02-26 21:13:10,091 autoreload 9204 10016 Watching for file changes with StatReloader
+WARNING 2024-02-26 21:13:12,106 log 9204 10488 Not Found: /hw3/hw3/image/
+WARNING 2024-02-26 21:13:12,106 basehttp 9204 10488 "GET /hw3/hw3/image/ HTTP/1.1" 404 2977
+WARNING 2024-02-26 21:13:13,238 log 9204 10488 Not Found: /hw3/hw3/image/
+WARNING 2024-02-26 21:13:13,254 basehttp 9204 10488 "GET /hw3/hw3/image/ HTTP/1.1" 404 2977
+WARNING 2024-02-26 21:13:14,489 log 9204 10488 Not Found: /hw3/hw3/image/
+WARNING 2024-02-26 21:13:14,489 basehttp 9204 10488 "GET /hw3/hw3/image/ HTTP/1.1" 404 2977
+WARNING 2024-02-26 21:13:24,740 log 9204 1928 Not Found: /hw3/hw3/image
+WARNING 2024-02-26 21:13:24,740 basehttp 9204 1928 "GET /hw3/hw3/image HTTP/1.1" 404 2974
+INFO 2024-02-26 21:13:42,045 autoreload 9204 10016 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\urls.py changed, reloading.
+INFO 2024-02-26 21:13:43,421 autoreload 10736 7128 Watching for file changes with StatReloader
+INFO 2024-02-26 21:13:45,851 basehttp 10736 14616 "GET /hw3/image/ HTTP/1.1" 200 651
+WARNING 2024-02-26 21:13:45,944 log 10736 14616 Not Found: /hw3/image/Без названия.jpg
+WARNING 2024-02-26 21:13:45,947 basehttp 10736 14616 "GET /hw3/image/%D0%91%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.jpg HTTP/1.1" 404 3088
+INFO 2024-02-26 21:13:48,248 basehttp 10736 12480 "GET /hw3/images HTTP/1.1" 301 0
+INFO 2024-02-26 21:13:48,267 basehttp 10736 52 "GET /hw3/images/ HTTP/1.1" 200 651
+WARNING 2024-02-26 21:13:48,365 log 10736 52 Not Found: /hw3/images/Без названия.jpg
+WARNING 2024-02-26 21:13:48,366 basehttp 10736 52 "GET /hw3/images/%D0%91%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.jpg HTTP/1.1" 404 3091
+INFO 2024-02-26 21:14:07,892 autoreload 10736 7128 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\urls.py changed, reloading.
+INFO 2024-02-26 21:14:09,167 autoreload 16404 13280 Watching for file changes with StatReloader
+WARNING 2024-02-26 21:15:46,715 log 16404 12696 Not Found: /hw3/images/
+WARNING 2024-02-26 21:15:46,715 basehttp 16404 12696 "GET /hw3/images/ HTTP/1.1" 404 2806
+INFO 2024-02-26 21:15:49,611 basehttp 16404 232 "GET /hw3/image/ HTTP/1.1" 200 625
+INFO 2024-02-26 21:16:09,178 basehttp 16404 6432 "GET /hw3/image/ HTTP/1.1" 200 625
+INFO 2024-02-26 21:16:23,745 basehttp 16404 17116 "POST /hw3/image/ HTTP/1.1" 200 652
+WARNING 2024-02-26 21:16:23,798 log 16404 17116 Not Found: /hw3/image/Без названия.jpg
+WARNING 2024-02-26 21:16:23,798 basehttp 16404 17116 "GET /hw3/image/%D0%91%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.jpg HTTP/1.1" 404 2930
+INFO 2024-02-26 21:20:36,418 autoreload 16404 13280 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py changed, reloading.
+INFO 2024-02-26 21:20:38,958 autoreload 2532 4240 Watching for file changes with StatReloader
+INFO 2024-02-26 21:21:07,756 autoreload 2532 4240 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py changed, reloading.
+INFO 2024-02-26 21:21:09,855 autoreload 6652 10236 Watching for file changes with StatReloader
+INFO 2024-02-26 21:25:22,158 autoreload 14184 11384 Watching for file changes with StatReloader
+INFO 2024-02-26 21:25:24,427 basehttp 14184 7940 "GET / HTTP/1.1" 200 191
+ERROR 2024-02-26 21:25:34,678 log 14184 8136 Internal Server Error: /hw3/image/
+Traceback (most recent call last):
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py", line 44, in upload_image
+    return render(request, 'index.html', {'form': form})
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2024-02-26 21:25:34,678 basehttp 14184 8136 "GET /hw3/image/ HTTP/1.1" 500 82182
+INFO 2024-02-26 21:25:47,848 autoreload 14184 11384 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py changed, reloading.
+INFO 2024-02-26 21:25:49,409 autoreload 15884 16028 Watching for file changes with StatReloader
+INFO 2024-02-26 21:25:49,894 basehttp 15884 15468 "GET /hw3/image/ HTTP/1.1" 200 573
+ERROR 2024-02-26 21:25:57,115 log 15884 15116 Internal Server Error: /hw3/image/
+Traceback (most recent call last):
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py", line 40, in upload_image
+    img_obj = form.instance
+AttributeError: 'ImageForm' object has no attribute 'instance'
+ERROR 2024-02-26 21:25:57,132 basehttp 15884 15116 "POST /hw3/image/ HTTP/1.1" 500 69037
+INFO 2024-02-26 21:26:33,236 autoreload 15884 16028 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py changed, reloading.
+INFO 2024-02-26 21:26:35,482 autoreload 16964 14960 Watching for file changes with StatReloader
+ERROR 2024-02-26 21:26:39,539 log 16964 12972 Internal Server Error: /hw3/image/
+Traceback (most recent call last):
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py", line 40, in upload_image
+    img_obj = form.instance()
+AttributeError: 'ImageForm' object has no attribute 'instance'
+ERROR 2024-02-26 21:26:39,539 basehttp 16964 12972 "POST /hw3/image/ HTTP/1.1" 500 69058
+INFO 2024-02-26 21:27:02,635 autoreload 16964 14960 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py changed, reloading.
+INFO 2024-02-26 21:27:03,997 autoreload 1500 16776 Watching for file changes with StatReloader
+INFO 2024-02-26 21:29:25,487 autoreload 1500 16776 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py changed, reloading.
+INFO 2024-02-26 21:29:27,432 autoreload 14428 10696 Watching for file changes with StatReloader
+ERROR 2024-02-26 21:29:31,335 log 14428 6916 Internal Server Error: /hw3/image/
+Traceback (most recent call last):
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py", line 40, in upload_image
+    img_obj = fs.open(image.name, image)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\files\storage\base.py", line 22, in open
+    return self._open(name, mode)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\files\storage\filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+TypeError: open() argument 'mode' must be str, not InMemoryUploadedFile
+ERROR 2024-02-26 21:29:31,337 basehttp 14428 6916 "POST /hw3/image/ HTTP/1.1" 500 77406
+INFO 2024-02-26 21:30:00,819 autoreload 14428 10696 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py changed, reloading.
+INFO 2024-02-26 21:30:03,075 autoreload 10212 11332 Watching for file changes with StatReloader
+ERROR 2024-02-26 21:30:05,238 log 10212 4284 Internal Server Error: /hw3/image/
+Traceback (most recent call last):
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py", line 40, in upload_image
+    img_obj = form.image
+AttributeError: 'ImageForm' object has no attribute 'image'
+ERROR 2024-02-26 21:30:05,238 basehttp 10212 4284 "POST /hw3/image/ HTTP/1.1" 500 69036
+INFO 2024-02-26 21:30:15,520 autoreload 10212 11332 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py changed, reloading.
+INFO 2024-02-26 21:30:17,054 autoreload 10520 7136 Watching for file changes with StatReloader
+ERROR 2024-02-26 21:30:17,679 log 10520 1620 Internal Server Error: /hw3/image/
+Traceback (most recent call last):
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py", line 40, in upload_image
+    img_obj = form.image()
+AttributeError: 'ImageForm' object has no attribute 'image'
+ERROR 2024-02-26 21:30:17,679 basehttp 10520 1620 "POST /hw3/image/ HTTP/1.1" 500 69040
+INFO 2024-02-26 21:30:32,263 autoreload 10520 7136 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py changed, reloading.
+INFO 2024-02-26 21:30:33,787 autoreload 6240 8136 Watching for file changes with StatReloader
+ERROR 2024-02-26 21:30:34,319 log 6240 5328 Internal Server Error: /hw3/image/
+Traceback (most recent call last):
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py", line 40, in upload_image
+    img_obj = form.changed_data['image']
+TypeError: list indices must be integers or slices, not str
+ERROR 2024-02-26 21:30:34,319 basehttp 6240 5328 "POST /hw3/image/ HTTP/1.1" 500 68998
+ERROR 2024-02-26 21:30:38,156 log 6240 5328 Internal Server Error: /hw3/image/
+Traceback (most recent call last):
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py", line 40, in upload_image
+    img_obj = form.changed_data['image']
+TypeError: list indices must be integers or slices, not str
+ERROR 2024-02-26 21:30:38,156 basehttp 6240 5328 "POST /hw3/image/ HTTP/1.1" 500 68998
+INFO 2024-02-26 21:30:54,980 autoreload 6240 8136 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py changed, reloading.
+INFO 2024-02-26 21:30:56,420 autoreload 4256 9540 Watching for file changes with StatReloader
+ERROR 2024-02-26 21:30:57,099 log 4256 3732 Internal Server Error: /hw3/image/
+Traceback (most recent call last):
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py", line 40, in upload_image
+    img_obj = form.changed_data['image']
+TypeError: list indices must be integers or slices, not str
+ERROR 2024-02-26 21:30:57,099 basehttp 4256 3732 "POST /hw3/image/ HTTP/1.1" 500 68996
+INFO 2024-02-26 21:31:25,438 autoreload 4256 9540 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py changed, reloading.
+INFO 2024-02-26 21:31:27,215 autoreload 12992 15224 Watching for file changes with StatReloader
+INFO 2024-02-26 21:31:27,906 basehttp 12992 9816 "POST /hw3/image/ HTTP/1.1" 200 718
+INFO 2024-02-26 21:31:55,538 basehttp 12992 13336 "POST /hw3/image/ HTTP/1.1" 200 718
+INFO 2024-02-26 21:33:12,855 autoreload 12992 15224 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py changed, reloading.
+INFO 2024-02-26 21:33:15,496 autoreload 4592 11500 Watching for file changes with StatReloader
+INFO 2024-02-26 21:33:16,536 basehttp 4592 3984 "POST /hw3/image/ HTTP/1.1" 200 691
+INFO 2024-02-26 21:33:19,097 basehttp 4592 3984 "POST /hw3/image/ HTTP/1.1" 200 691
+INFO 2024-02-26 21:33:31,025 autoreload 4592 11500 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py changed, reloading.
+INFO 2024-02-26 21:33:32,371 autoreload 16920 10316 Watching for file changes with StatReloader
+ERROR 2024-02-26 21:33:35,059 log 16920 15200 Internal Server Error: /hw3/image/
+Traceback (most recent call last):
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\django_hw\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py", line 40, in upload_image
+    img_obj = form.image
+AttributeError: 'ImageForm' object has no attribute 'image'
+ERROR 2024-02-26 21:33:35,059 basehttp 16920 15200 "POST /hw3/image/ HTTP/1.1" 500 69036
+INFO 2024-02-26 21:33:46,740 autoreload 16920 10316 C:\Users\Есения\Desktop\programming\Django_hw\hwproject\hw3app\views.py changed, reloading.
+INFO 2024-02-26 21:33:48,281 autoreload 10708 11328 Watching for file changes with StatReloader
+INFO 2024-02-26 21:33:49,267 basehttp 10708 16376 "POST /hw3/image/ HTTP/1.1" 200 718
+INFO 2024-02-26 21:34:49,554 basehttp 10708 15048 "POST /hw3/image/ HTTP/1.1" 200 573
+INFO 2024-02-26 21:34:54,042 basehttp 10708 4716 "POST /hw3/image/ HTTP/1.1" 200 573
+INFO 2024-02-26 21:35:06,853 basehttp 10708 14080 "POST /hw3/image/ HTTP/1.1" 200 726

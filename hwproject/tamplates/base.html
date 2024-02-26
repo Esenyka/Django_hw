@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>На этом сайте будут мои домашние задания</title>
+    <title>{% block title %}hw{% endblock %}</title>
 </head>
 <body>
-
+    {% block content %}
+        <p>На этом сайте мои будут мои домашние работы...</p>
+    {% endblock %}
 </body>
 </html>

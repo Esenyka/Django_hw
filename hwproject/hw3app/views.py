@@ -3,12 +3,18 @@ from django.http import HttpResponse
 from .models import Client, Order
 from django.shortcuts import render, get_object_or_404
 from datetime import datetime, timedelta
+from django.core.files.storage import FileSystemStorage
+from .forms import ImageForm
 
 # Create your views here.
 
 
 def base(requests):
-    return render(requests, 'hw3app/about.html')
+    return render(requests, 'base.html')
+
+
+def base_hw3(requests):
+    return render(requests, 'hw3app/templ_hw3.html')
 
 
 def hw3(requests):
@@ -24,6 +30,14 @@ def client_orders_seven(request, client_id):
                                                   'month': (date.month - 1), 'year': (date.year - 1)})
 
 
-
-
-
+def upload_image(request):
+    if request.method == 'POST':
+        form = ImageForm(request.POST, request.FILES)
+        if form.is_valid():
+            image = form.cleaned_data['image']
+            fs = FileSystemStorage()
+            fs.save(image.name, image)
+            return render(request, 'hw3app/upload_image.html', {'form': form, 'img_obj': image})
+    else:
+        form = ImageForm()
+        return render(request, 'hw3app/upload_image.html', {'form': form})
