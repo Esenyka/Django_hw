@@ -10,6 +10,7 @@
     <ul>
         {% for item in order %}
             {% if item.order_date.day > day %}
+                <img src="{{ item.image.url}}" alt="connect" style="max-height:300px">
                 <li>{{ item }}</li>
             {% else %}
                 <li> {{ item }} </li>

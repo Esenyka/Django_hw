@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from .models import Client, Order
+from .models import Client, Order, Product
 from django.shortcuts import render, get_object_or_404
 from datetime import datetime, timedelta
 from django.core.files.storage import FileSystemStorage
@@ -41,3 +41,8 @@ def upload_image(request):
     else:
         form = ImageForm()
         return render(request, 'hw3app/upload_image.html', {'form': form})
+
+
+def products(request, product_name):
+    product = get_object_or_404(Product, name=product_name)
+    return render(request, 'hw3app/products.html', {'product': product})
