@@ -23,8 +23,9 @@ from django.conf import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', base),
-    path('hw3/', include('hw3app.urls')),
     path('les4/', include('les4app.urls')),
+    # path('__debug__/', include("debug_toolbar.urls")),
+    path('hw3/', include('hw3app.urls')),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

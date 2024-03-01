@@ -1,3 +1,4 @@
+from django.db.models import Sum
 from django.shortcuts import render
 from django.http import HttpResponse
 from .models import Client, Order, Product
@@ -46,3 +47,25 @@ def upload_image(request):
 def products(request, product_name):
     product = get_object_or_404(Product, name=product_name)
     return render(request, 'hw3app/products.html', {'product': product})
+
+
+def total_quantity_in_DB(request):
+    total = Product.objects.aggregate(Sum('product_quantity'))
+    context = {
+        'title': 'Общее кол-во посчитано в БД',
+        'total': total
+    }
+    return render(request, 'hw3app/total_quantity.html', context)
+
+
+def total_quantity_in_view(request):
+    product = Product.objects.all()
+    total = sum(prod.product_quantity for prod in product)
+    context = {
+        'title': 'Общее кол-во посчитано в View',
+        'total': total
+    }
+    return render(request, 'hw3app/total_quantity.html', context)
+
+
+

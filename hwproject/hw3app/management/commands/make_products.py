@@ -7,7 +7,7 @@ class Command(BaseCommand):
     help = "Fill DB fake data"
 
     def handle(self, *args, **kwargs):
-        names = ["Bread", "Butter", "Solt", "Peper", "Milk"]
+        names = ["Tea", "Coffe", "Juice", "Apple", "Pear"]
         for i in range(len(names)):
             name = names[i]
             num = str(random.randint(10, 100)).zfill(2)
